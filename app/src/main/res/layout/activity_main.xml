@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semana 05"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Los intents: Permiten intercambiar datos entre aplicaciones o componentes de aplicaciones"
+        android:textAlignment="center"
+        android:layout_margin="50sp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSend1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    EJEMPLO 1 - Intent Explicito    " />
+
+    <EditText
+        android:id="@+id/txtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50sp"
+        android:inputType="textPersonName"
+        android:text="www.google.com" />
+    <Button
+        android:id="@+id/btnSend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJEMPLO 2 - abrir pagina externa" />
+
+    <Button
+        android:id="@+id/btnSend3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  EJEMPLO 3 - llamar al 12456789  " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer: @denisyeyon"
+        android:textAlignment="center"
+        android:layout_margin="20sp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alumno: Espinoza Ponciano Denis Yeyson"
+        android:textAlignment="center"
+        android:layout_margin="20sp"
+        android:textSize="16sp" />
+
+</LinearLayout>
